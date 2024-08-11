@@ -1,6 +1,6 @@
 import * as SQLite from "expo-sqlite";
 
-const db = SQLite.openDatabase("little_lemon");
+const db = SQLite.openDatabaseAsync("menuitems.db");
 
 export async function createTable() {
   return new Promise((resolve, reject) => {

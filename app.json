@@ -32,11 +32,12 @@
     "web": {
       "favicon": "./assets/Logo.png"
     },
-    "extra": {
-      
-    },
+    "extra": {},
     "runtimeVersion": {
       "policy": "sdkVersion"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
